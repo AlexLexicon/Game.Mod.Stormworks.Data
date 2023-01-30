@@ -1,0 +1,37 @@
+Transform Data Id	Explanation	Example	Notes
+00	East - West Scaling	0.5 halfs the size of the object east to west	Guess based on in-game observation
+01	Up - Down Scaling		Guess based on in-game observation
+02	North - South Skewing		Guess based on in-game observation
+03	Insane skewing	looks like a ragdoll error with 0.5	Guess based on in-game observation
+04	None	No apparent effect at 0.5	
+05	None	No apparent effect at 0.6	
+06	None	No apparent effect at 0.7	
+07	None	No apparent effect at 0.8	
+08	None	No apparent effect at 0.9	
+09	None	No apparent effect at 0.10	
+10	Diagonal Up - Down Scaling	0.5 tilted	Guess based on in-game observation
+11	Up - Down Scaling	0.5 makes object shorter	Guess based on in-game observation
+12	Diagonal North - South Scaling	0.5 tilted	Guess based on in-game observation
+13	Insane skewing	looks like a ragdoll error with 0.5	Guess based on in-game observation
+14	None	No apparent effect at 0.5	
+15	None	No apparent effect at 0.6	
+16	None	No apparent effect at 0.7	
+17	None	No apparent effect at 0.8	
+18	None	No apparent effect at 0.9	
+19	None	No apparent effect at 0.10	
+20	Diagonal East - West Scaling	0.5 tilted	Guess based on in-game observation
+21	Diagonal Up - Down Scaling	0.5 tilted	Guess based on in-game observation
+22	North - South Scaling	0.5 halfs the size of the object north to south	Guess based on in-game observation
+23	Insane skewing	looks like a ragdoll error with 0.5	Guess based on in-game observation
+24	None	No apparent effect at 0.10	
+25	None	No apparent effect at 0.11	
+26	None	No apparent effect at 0.12	
+27	None	No apparent effect at 0.13	
+28	None	No apparent effect at 0.14	
+29	None	No apparent effect at 0.15	
+30	X coordinate	East: positive(+) West: negative(-)	Guess based on in-game observation
+31	Y coordinate	Up: positive(+) Down: negative(-)	Guess based on in-game observation
+32	Z coordinate	North: positive(+) South: negative(-)	Guess based on in-game observation
+33	"Weird visual effect,"	ghosts the object?	Guess based on in-game observation
+34	None	No apparent effect at 0.15	
+35	None	No apparent effect at 0.15	

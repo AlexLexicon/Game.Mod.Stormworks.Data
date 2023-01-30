@@ -1,0 +1,24 @@
+Adding a new Workbench to tile xml
+----------------------------------
+
+1. Add a mesh
+<mesh id="wb1_mesh" file_name="meshes/workbench.mesh">
+    <transform 30="-35.0" 31="5.0" 32="17.0"/>
+</mesh>
+
+2. Add a physics_mesh
+<physics_mesh id="wb1_mesh_phys" file_name="meshes/workbench_phys.phys">
+    <transform 30="-35.0" 31="5.0" 32="17.0"/>
+</physics_mesh>
+
+3. Add a edit_area
+<edit_area id="wb1_edit" grid_size="1">
+    <transform 00="-1" 22="-1" 30="-27.770796" 31="1.391634" 32="-4.158787"/>
+    <size x="7.5" y="7.5" z="15"/>
+</edit_area>
+
+4. Add a interactable
+<interactable id="wb1_interact" target_object_id="wb1_edit" label="Workbench" interact_type="2">
+    <transform 30="-35.0" 31="5.0" 32="17.0"/>
+    <size x="0.937347" y="1.846039" z="2.473358"/>
+</interactable>

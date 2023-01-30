@@ -1,0 +1,25 @@
+XML transform
+-------------
+
+Example of XML transform:
+<transform 00="-1" 22="-1" 30="-27.770796" 31="1.391634" 32="-4.158787"/>
+
+-For general transforms you can do the following...
+--to move East = 30="+"
+--to move West = 30="-"
+--to move North = 32="+"
+--to move South = 32="-"
+--to move Up = 31="+"
+--to move Down = 31="-"
+
+-For Workbenches you can do the following...
+--to look south = 00="0" 02="-1" 20="1" 22="0"
+--to look North = 00="0" 02="1" 20="-1" 22="0"
+--to look East = 00="-1" 02="0" 20="0" 22="-1"
+--to look West = 00="1" 02="0" 20="0" 22="-1"
+
+-For Editareas you can do the following...
+--to look south = 00="-1" 22="-1"
+--to look North = (remove)
+--to look East = 00="0" 02="-1" 20="1" 22="0"
+--to look West = 00="0" 02="1" 20="-1" 22="0"
