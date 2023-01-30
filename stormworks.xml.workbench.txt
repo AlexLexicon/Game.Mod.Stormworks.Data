@@ -22,3 +22,6 @@ Adding a new Workbench to tile xml
     <transform 30="-35.0" 31="5.0" 32="17.0"/>
     <size x="0.937347" y="1.846039" z="2.473358"/>
 </interactable>
+
+5. Property
+Workbenches automatically are connected to the property and have to be purchased to be used.
